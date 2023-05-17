@@ -3,3 +3,4 @@ image:
 
 tasks:
   - init: pip install --user -r requirements.txt
+  - init: 'export AIRFLOW_HOME=/workspace/airflow'
